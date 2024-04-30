@@ -2,6 +2,7 @@
 import time
 from pymavlink import mavutil
 
+#At 13.0 V input noload, winch spinxys at 127 rev/min.
 #Winch control is connected on pin 4 of navigator.
 winchPin=4
 winchCW = 1100
